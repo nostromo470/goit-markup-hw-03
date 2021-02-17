@@ -213,6 +213,10 @@ section {
   margin-top: var(--margin-top);
 }
 
+.item > img {
+  display: block;
+}
+
 /* Наша комманда */
 
 .command {
@@ -262,6 +266,7 @@ section {
 
 .card-thumb > img {
   margin-bottom: 30px;
+  display: block;
 }
 
 /* Footer */
@@ -372,6 +377,10 @@ hr {
 .card-thumb1 {
   padding: 0;
   margin: 0;
+}
+
+.card-thumb1 > img {
+  display: block;
 }
 
 .crd h3 {
